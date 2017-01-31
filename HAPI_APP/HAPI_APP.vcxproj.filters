@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Output\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Output\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualisation.cpp">
+      <Filter>Output\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEntity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Output\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Output\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation.h">
+      <Filter>Output\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEntity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="World">
+      <UniqueIdentifier>{11619768-1d15-43d6-a442-be08392afdfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{477729cd-a526-4302-b7fb-0690d1285cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\Graphics">
+      <UniqueIdentifier>{c0e3e1ea-da58-40a2-b275-a94143eb3ac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
